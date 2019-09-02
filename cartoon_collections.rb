@@ -45,10 +45,7 @@ def find_the_cheese(array)
   
   array.any? { |x| cheese_types.include?(x) }
 
-  if true 
-    return array[x]
-  else
-    return nil 
+  
 
 end
 
