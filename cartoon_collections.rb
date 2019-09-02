@@ -43,7 +43,7 @@ def find_the_cheese(array)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.any? { |x| cheese_types.include?(x) }
+  array.find(ifnone = nil) { |x| cheese_types.include?(x) }
 
   
 
